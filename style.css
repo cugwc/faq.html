@@ -1,0 +1,110 @@
+body {
+  background-color: white;
+  /*background-image: linear-gradient(to bottom, white, #91c3e0);*/
+}
+
+img {
+  width: 100%;
+  max-height: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center top;
+}
+
+img#navpic {
+  border: 1px white solid;
+  border-radius: 50%;
+}
+
+.nav {
+  height: 12vh;
+  width: 100vw;
+  background-color: #0d9c90;
+}
+
+.navbar-nav a {
+  padding-right: 1rem;
+  text-align: end;
+  font-family: "Lato", sans-serif;
+  font-size: 19px;
+}
+
+button {
+  max-height: 100%;
+  width: 10rem;
+}
+
+.nav img {
+  height: 10vh;
+  width: auto;
+}
+
+.photos img {
+  object-fit: cover;
+}
+
+.navbar {
+  height: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+/*faq*/
+.faq {
+  padding-top: 5rem;
+}
+
+.faq h1 {
+  font-size: 4rem;
+  font-family: "Bebas Neue", cursive;
+  color: #205471;
+}
+
+hr {
+  border: 2px #205471 solid;
+  margin-bottom: 3rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.question {
+  font-family: "Lato", sans-serif;
+  color: #205471;
+  border-bottom: 3px #f7d80c dashed;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.answer {
+  font-family: "Roboto", sans-serif;
+  color: #424647;
+  font-size: 18px;
+}
+div#contact {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #91c3e0;
+}
+
+#contact p:first-child {
+  font-size: 2rem;
+  font-family: "Bebas Neue", cursive;
+  color: #205471;
+  border-bottom: 3px #f7d80c solid;
+  margin-bottom: 2rem;
+}
+
+#contact p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+}
+
+.footer {
+  width: 100vw;
+  justify-content: center;
+  background-color: #91c3e0;
+}
+
+.sponsorlogo {
+  padding: 0.5rem;
+}
